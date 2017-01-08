@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 //¸æËßjunit springÅäÖÃÎÄ¼ş
-@ContextConfiguration("classpath:spring/spring-dao.xml")
+@ContextConfiguration({"classpath:spring/spring-dao.xml"})
 public class SuccessKilledDaoTest {
 
 	@Resource
